@@ -1,0 +1,30 @@
+.navbar-brand,
+.navbar-nav li a {
+  line-height: 100px;
+  height: 100px;
+  padding-top: 0;
+}
+
+.navbar-nav li a .glyphicon {
+  margin-top: 25px;
+  font-size: 50px;
+}
+
+.navbar {
+  min-height: 100px;
+}
+
+.navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-brand img {
+  height:100px;
+  margin-top:0;
+  margin-bottom:0;
+}
+
+#ucoin-balance {
+  padding-right: 30px;
+}

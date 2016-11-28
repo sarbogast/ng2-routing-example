@@ -1,0 +1,23 @@
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+.benefit-card {
+  @extend .btn;
+  @extend .btn-primary;
+  @extend .btn-lg;
+  padding: 1em;
+}
+
+.benefit-card:hover {
+  opacity: 0.5;
+}
+
+.benefit-card {
+  span, i {
+    font-size: 250%;
+    padding-bottom: .5em;
+  }
+}
+
+.benefit-row {
+  padding: 1em;
+}

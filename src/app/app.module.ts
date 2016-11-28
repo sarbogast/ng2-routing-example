@@ -4,6 +4,9 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import {AppRoutingModule} from './app-routing.module';
+import {MarketingModule} from './marketing/marketing.module';
+import {AuthGuard} from './shared/auth-guard';
 
 @NgModule({
   declarations: [
@@ -12,9 +15,13 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    AppRoutingModule,
+    MarketingModule
   ],
-  providers: [],
+  providers: [
+    AuthGuard
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
