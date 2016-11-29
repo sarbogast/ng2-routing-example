@@ -6,7 +6,6 @@ import {DashboardComponent} from './dashboard/dashboard.component';
 import {MyHeaderComponent} from './my-header/my-header.component';
 import {MyComponent} from './my.component';
 import {MyRoutingModule} from './my-routing.module';
-import {BenefitsModule} from './benefits/benefits.module';
 
 @NgModule({
   declarations: [
@@ -17,8 +16,7 @@ import {BenefitsModule} from './benefits/benefits.module';
   imports: [
     CommonModule,
     FormsModule,
-    MyRoutingModule,
-    BenefitsModule
+    MyRoutingModule
   ],
   providers: [
   ]
