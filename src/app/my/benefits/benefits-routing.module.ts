@@ -7,7 +7,7 @@ import {BenefitIctComponent} from './benefit-ict/benefit-ict.component';
 
 const benefitsRoutes: Routes = [
   {
-    path: 'benefits', component: BenefitsComponent, children: [
+    path: '', component: BenefitsComponent, children: [
       {path: '', component: BenefitsOverviewComponent, pathMatch: 'full'},
       {path: 'cash', component: BenefitCashComponent},
       {path: 'ict', component: BenefitIctComponent}
